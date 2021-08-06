@@ -66,3 +66,16 @@ a Text adventure game engine made in Python
 <a href="https://github.com/lines-of-codes/StablerCharacter/blob/master/LICENSE">![StablerCharacter License](https://img.shields.io/github/license/lines-of-codes/StablerCharacter?style=flat-square)</a>
 <a href="https://github.com/lines-of-codes/StablerCharacter/">![StablerCharacter Top Languages](https://img.shields.io/github/languages/top/lines-of-codes/StablerCharacter?style=flat-square)</a>
 <a href="https://github.com/lines-of-codes/StablerCharacter/">![StablerCharacter Code size in Bytes](https://img.shields.io/github/languages/code-size/lines-of-codes/StablerCharacter?style=flat-square)</a>
+
+---
+
+[SypherEngine](https://github.com/AurumByte/SypherEngine) by [AurumByte](https://github.com/AurumByte/)
+
+a Game engine, made for Simplicity.
+
+<a href="https://github.com/AurumByte/SypherEngine/issues">![SypherEngine Issues](https://img.shields.io/github/issues/AurumByte/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/AurumByte/SypherEngine/network/members">![SypherEngine Forks](https://img.shields.io/github/forks/AurumByte/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/AurumByte/SypherEngine/stargazers">![SypherEngine Stars](https://img.shields.io/github/stars/AurumByte/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/AurumByte/SypherEngine/blob/master/LICENSE">![SypherEngine License](https://img.shields.io/github/license/AurumByte/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/AurumByte/SypherEngine/">![SypherEngine Top Languages](https://img.shields.io/github/languages/top/AurumByte/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/AurumByte/SypherEngine/">![SypherEngine Code size in Bytes](https://img.shields.io/github/languages/code-size/AurumByte/SypherEngine?style=flat-square)</a>
