@@ -4,6 +4,8 @@ The List of Game engine in Brackeys Server so far
 
 ---
 
+<img src="https://fastj.tech/svg/fastj_icon.svg" alt="FastJ Icon" height="200"/>
+
 [FastJ](https://github.com/fastjengine/FastJ) by [Lucas](https://github.com/lucasstarsz)
 
 FastJ is a Lightweight Game engine. Made in Java.
@@ -14,8 +16,6 @@ FastJ is a Lightweight Game engine. Made in Java.
 <a href="https://github.com/fastjengine/FastJ/blob/main/LICENSE.txt">![FastJ License](https://img.shields.io/github/license/fastjengine/FastJ?style=flat-square)</a>
 <a href="https://github.com/fastjengine/FastJ/">![FastJ Top Language](https://img.shields.io/github/languages/top/fastjengine/FastJ?style=flat-square)</a>
 <a href="https://github.com/fastjengine/FastJ/">![FastJ Code size in Bytes](https://img.shields.io/github/languages/code-size/fastjengine/FastJ?style=flat-square)</a>
-
-<img src="https://fastj.tech/svg/fastj_icon.svg" alt="banner" height="300"/>
 
 ---
 
@@ -45,18 +45,18 @@ A Game engine. Made in C++
 
 ---
 
+<img src="https://github.com/DucktapeEngine/Branding/blob/main/Branding-02.png" alt="banner" height="200"/>
+
 [Ducktape](https://github.com/Ducktapeengine/ducktape) by [Duckie](https://github.com/TheDuckDev)
 
 Convenience, that's Ducktape. Ducktape is an Open source Light weight 2d Game Engine that gives utmost priority to user convenience.
 
-<a href="https://github.com/DucktapeEngine/Ducktape/issues">![Ducktape Issues](https://img.shields.io/github/issues/YeffyCodeGit/Orbital?style=flat-square)</a>
-<a href="https://github.com/DucktapeEngine/Ducktape/network/members">![Ducktape Forks](https://img.shields.io/github/forks/YeffyCodeGit/Orbital?style=flat-square)</a>
-<a href="https://github.com/DucktapeEngine/Ducktape/stargazers">![Ducktape Stars](https://img.shields.io/github/stars/YeffyCodeGit/Orbital?style=flat-square)</a>
-<a href="https://github.com/DucktapeEngine/Ducktape/">![Ducktape License](https://img.shields.io/github/license/YeffyCodeGit/Orbital?style=flat-square)</a>
-<a href="https://github.com/DucktapeEngine/Ducktape/">![Ducktape Top Languages](https://img.shields.io/github/languages/top/YeffyCodeGit/Orbital?style=flat-square)</a>
-<a href="https://github.com/DucktapeEngine/Ducktape/">![Ducktape Code size in Bytes](https://img.shields.io/github/languages/code-size/YeffyCodeGit/Orbital?style=flat-square)</a>
-
-<img src="https://github.com/DucktapeEngine/Branding/blob/main/Branding-02.png" alt="banner" height="300"/>
+<a href="https://github.com/DucktapeEngine/Ducktape/issues">![Ducktape Issues](https://img.shields.io/github/issues/DucktapeEngine/Ducktape?style=flat-square)</a>
+<a href="https://github.com/DucktapeEngine/Ducktape/network/members">![Ducktape Forks](https://img.shields.io/github/forks/DucktapeEngine/Ducktape?style=flat-square)</a>
+<a href="https://github.com/DucktapeEngine/Ducktape/stargazers">![Ducktape Stars](https://img.shields.io/github/stars/DucktapeEngine/Ducktape?style=flat-square)</a>
+<a href="https://github.com/DucktapeEngine/Ducktape/">![Ducktape License](https://img.shields.io/github/license/DucktapeEngine/Ducktape?style=flat-square)</a>
+<a href="https://github.com/DucktapeEngine/Ducktape/">![Ducktape Top Languages](https://img.shields.io/github/languages/top/DucktapeEngine/Ducktape?style=flat-square)</a>
+<a href="https://github.com/DucktapeEngine/Ducktape/">![Ducktape Code size in Bytes](https://img.shields.io/github/languages/code-size/DucktapeEngine/Ducktape?style=flat-square)</a>
 
 ---
 
