@@ -4,7 +4,7 @@ The List of Game engine in Brackeys Server so far
 
 ---
 
-<img src="https://fastj.tech/svg/fastj_icon.svg" alt="FastJ Icon" height="200"/>
+<img src="https://fastj.tech/svg/fastj_icon.svg" alt="FastJ Icon" height="115" align="left" />
 
 [FastJ](https://github.com/fastjengine/FastJ) by [Lucas](https://github.com/lucasstarsz)
 
@@ -45,11 +45,11 @@ A Game engine. Made in C++
 
 ---
 
-<img src="https://raw.githubusercontent.com/DucktapeEngine/Branding/main/banner.png" alt="banner" height="200"/>
+<img src="https://raw.githubusercontent.com/DucktapeEngine/Branding/main/Icon.png" alt="banner" height="125" align="left"/>
 
 [Ducktape](https://github.com/Ducktapeengine/ducktape) by [Duckie](https://github.com/TheDuckDev)
 
-Convenience, that's Ducktape. Ducktape is an Open source Light weight 2d Game Engine that gives utmost priority to user convenience.
+Convenience, that's Ducktape. Ducktape is an Open source Light weight 2d Game Engine that gives most priority to user convenience.
 
 <a href="https://github.com/DucktapeEngine/Ducktape/issues">![Ducktape Issues](https://img.shields.io/github/issues/DucktapeEngine/Ducktape?style=flat-square)</a>
 <a href="https://github.com/DucktapeEngine/Ducktape/network/members">![Ducktape Forks](https://img.shields.io/github/forks/DucktapeEngine/Ducktape?style=flat-square)</a>
