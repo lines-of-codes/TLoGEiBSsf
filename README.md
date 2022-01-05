@@ -45,7 +45,7 @@ A Game engine. Made in C++
 
 ---
 
-<img src="https://github.com/DucktapeEngine/Branding/blob/main/Branding-02.png" alt="banner" height="200"/>
+<img src="https://raw.githubusercontent.com/DucktapeEngine/Branding/main/banner.png" alt="banner" height="200"/>
 
 [Ducktape](https://github.com/Ducktapeengine/ducktape) by [Duckie](https://github.com/TheDuckDev)
 
