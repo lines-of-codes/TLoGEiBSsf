@@ -73,7 +73,7 @@ a 2D/3D Game engine made in Java.
 
 ---
 
-[StablerCharacter](https://github.com/lines-of-codes/StablerCharacter) by [GameCreator/Lines-of-codes](https://github.com/lines-of-codes/)
+[StablerCharacter](https://github.com/lines-of-codes/StablerCharacter) by [GameCreator/lines-of-codes](https://github.com/lines-of-codes/)
 
 a Text adventure game engine made in Python
 
@@ -83,6 +83,29 @@ a Text adventure game engine made in Python
 <a href="https://github.com/lines-of-codes/StablerCharacter/blob/master/LICENSE">![StablerCharacter License](https://img.shields.io/github/license/lines-of-codes/StablerCharacter?style=flat-square)</a>
 <a href="https://github.com/lines-of-codes/StablerCharacter/">![StablerCharacter Top Languages](https://img.shields.io/github/languages/top/lines-of-codes/StablerCharacter?style=flat-square)</a>
 <a href="https://github.com/lines-of-codes/StablerCharacter/">![StablerCharacter Code size in Bytes](https://img.shields.io/github/languages/code-size/lines-of-codes/StablerCharacter?style=flat-square)</a>
+
+### Bindings/Alternative Implementations
+[StablerCharacter.java](https://github.com/lines-of-codes/StablerCharacter.java) by [GameCreator/lines-of-codes](https://github.com/lines-of-codes/)
+
+a Java implementation of StablerCharacter.
+
+<a href="https://github.com/lines-of-codes/StablerCharacter.java/issues">![StablerCharacter Issues](https://img.shields.io/github/issues/lines-of-codes/StablerCharacter.java?style=flat-square)</a>
+<a href="https://github.com/lines-of-codes/StablerCharacter.java/network/members">![StablerCharacter Forks](https://img.shields.io/github/forks/lines-of-codes/StablerCharacter.java?style=flat-square)</a>
+<a href="https://github.com/lines-of-codes/StablerCharacter.java/stargazers">![StablerCharacter Stars](https://img.shields.io/github/stars/lines-of-codes/StablerCharacter.java?style=flat-square)</a>
+<a href="https://github.com/lines-of-codes/StablerCharacter.java/blob/master/LICENSE">![StablerCharacter License](https://img.shields.io/github/license/lines-of-codes/StablerCharacter.java?style=flat-square)</a>
+<a href="https://github.com/lines-of-codes/StablerCharacter.java/">![StablerCharacter Top Languages](https://img.shields.io/github/languages/top/lines-of-codes/StablerCharacter.java?style=flat-square)</a>
+<a href="https://github.com/lines-of-codes/StablerCharacter.java/">![StablerCharacter Code size in Bytes](https://img.shields.io/github/languages/code-size/lines-of-codes/StablerCharacter.java?style=flat-square)</a>
+
+[StablerCharacter.cs](https://github.com/lines-of-codes/StablerCharacter.cs) by [GameCreator/lines-of-codes](https://github.com/lines-of-codes/)
+
+a C# implementation of StablerCharacter.
+
+<a href="https://github.com/lines-of-codes/StablerCharacter.cs/issues">![StablerCharacter Issues](https://img.shields.io/github/issues/lines-of-codes/StablerCharacter.cs?style=flat-square)</a>
+<a href="https://github.com/lines-of-codes/StablerCharacter.cs/network/members">![StablerCharacter Forks](https://img.shields.io/github/forks/lines-of-codes/StablerCharacter.cs?style=flat-square)</a>
+<a href="https://github.com/lines-of-codes/StablerCharacter.cs/stargazers">![StablerCharacter Stars](https://img.shields.io/github/stars/lines-of-codes/StablerCharacter.cs?style=flat-square)</a>
+<a href="https://github.com/lines-of-codes/StablerCharacter.cs/blob/master/LICENSE">![StablerCharacter License](https://img.shields.io/github/license/lines-of-codes/StablerCharacter.cs?style=flat-square)</a>
+<a href="https://github.com/lines-of-codes/StablerCharacter.cs/">![StablerCharacter Top Languages](https://img.shields.io/github/languages/top/lines-of-codes/StablerCharacter.cs?style=flat-square)</a>
+<a href="https://github.com/lines-of-codes/StablerCharacter.cs/">![StablerCharacter Code size in Bytes](https://img.shields.io/github/languages/code-size/lines-of-codes/StablerCharacter.cs?style=flat-square)</a>
 
 ---
 
@@ -96,16 +119,3 @@ a Game engine, made for Simplicity.
 <a href="https://github.com/AurumByte/SypherEngine/blob/master/LICENSE">![SypherEngine License](https://img.shields.io/github/license/AurumByte/SypherEngine?style=flat-square)</a>
 <a href="https://github.com/AurumByte/SypherEngine/">![SypherEngine Top Languages](https://img.shields.io/github/languages/top/AurumByte/SypherEngine?style=flat-square)</a>
 <a href="https://github.com/AurumByte/SypherEngine/">![SypherEngine Code size in Bytes](https://img.shields.io/github/languages/code-size/AurumByte/SypherEngine?style=flat-square)</a>
-
----
-
-[StablerCharacter.java](https://github.com/lines-of-codes/StablerCharacter.java) by [GameCreator/Lines-of-codes](https://github.com/lines-of-codes/)
-
-a Java implementation of StablerCharacter.
-
-<a href="https://github.com/lines-of-codes/StablerCharacter.java/issues">![StablerCharacter Issues](https://img.shields.io/github/issues/lines-of-codes/StablerCharacter.java?style=flat-square)</a>
-<a href="https://github.com/lines-of-codes/StablerCharacter.java/network/members">![StablerCharacter Forks](https://img.shields.io/github/forks/lines-of-codes/StablerCharacter.java?style=flat-square)</a>
-<a href="https://github.com/lines-of-codes/StablerCharacter.java/stargazers">![StablerCharacter Stars](https://img.shields.io/github/stars/lines-of-codes/StablerCharacter.java?style=flat-square)</a>
-<a href="https://github.com/lines-of-codes/StablerCharacter.java/blob/master/LICENSE">![StablerCharacter License](https://img.shields.io/github/license/lines-of-codes/StablerCharacter.java?style=flat-square)</a>
-<a href="https://github.com/lines-of-codes/StablerCharacter.java/">![StablerCharacter Top Languages](https://img.shields.io/github/languages/top/lines-of-codes/StablerCharacter.java?style=flat-square)</a>
-<a href="https://github.com/lines-of-codes/StablerCharacter.java/">![StablerCharacter Code size in Bytes](https://img.shields.io/github/languages/code-size/lines-of-codes/StablerCharacter.java?style=flat-square)</a>
