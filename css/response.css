@@ -1,0 +1,49 @@
+@media screen and (max-width: 500px) {
+  header {
+    margin: 40px auto 10px;
+  }
+  header .site-title a {
+    font-size: 14px;
+  }
+  #main > ul > li {
+    padding: 18px 0 20px;
+    flex-direction: column;
+  }
+  #main > ul > li div.info {
+    margin: 0 !important;
+    margin-top: 10px !important;
+    width: 100%;
+  }
+  #main > ul > li img {
+    margin: 0;
+  }
+  #main > ul > li:first-child {
+    margin-top: -35px;
+  }
+  #main h3.date {
+    font-size: 11px !important;
+    position: static !important;
+    margin-top: 10px;
+    align-self: flex-start;
+  }
+  #main > ul > li img.index-cover {
+    width: 80% !important;
+    margin: 0 !important;
+    margin-top: 10px !important;
+  }
+  #main article.post {
+    line-height: 22px;
+  }
+  #main article.post h1 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  #main article.post h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  #main article.post h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}

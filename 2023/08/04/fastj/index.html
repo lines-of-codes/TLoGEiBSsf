@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title>FastJ - A fast java game engine | TLoGEiBSsf</title>
+  <meta name="google-site-verification" content="" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta itemprop="name" content="TLoGEiBSsf" />
+  <meta itemprop="description" content="The List of Game Engines in Brackeys Server so far." />
+  <meta itemprop="image" content="" />
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <!-- keywords and description -->
+  
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  <script src="//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js" integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+      onload="renderMathInElement(document.body);"></script>
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  <div id="container">
+    <header>
+  <div class="site-title">
+    <a href="/">
+      TLoGEiBSsf
+    </a>
+  </div>
+  
+  <div class="site-subtitle">
+    The List of Game Engines in Brackeys Server so far.
+  </div>
+  
+  
+  <p class="links">
+    
+    <a target="_blank" rel="noopener" href="https://github.com/lines-of-codes/TLoGEiBSsf">
+      <img src="/images/links/github" alt="GitHub">
+    </a>
+    
+  </p>
+  
+</header>
+    <div id="main">
+      <article class="post">
+  <h3 class="date">
+  <time datetime="2023-08-04T14:16:29.338Z">
+    Aug 4, 2023
+  </time>
+</h3>
+  <h1>FastJ - A fast java game engine</h1>
+  <p class="post-info">
+  
+  
+</p>
+  
+<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/fastj/" rel="tag">fastj</a></li></ul>
+
+  
+  <article>
+    <p>FastJ is a free and open-source Java-based 2D game engine and framework. It aims to provide the best 2D game-making experience using Java (and the JVM languages).</p>
+<h2 id="Try-out-FastJ"><a href="#Try-out-FastJ" class="headerlink" title="Try out FastJ"></a>Try out FastJ</h2><p><strong>This article assumes you already have the basic understanding of the Java programming language.</strong></p>
+<p>To try out how FastJ works as quickly as possible, Fork <a target="_blank" rel="noopener" href="https://replit.com/@LinesOfCodes/FastJ-Java-Gradle">this replit template</a>.</p>
+<p>Or if you prefer to setup all the tools and your project on your PC, you can follow <a target="_blank" rel="noopener" href="https://fastj.tech/wiki/fastj-basics/fastj-quick-start/">this official guide</a> to quickly get started on setting up your project in a standard way.</p>
+<h2 id="Let’s-do-some-explaining"><a href="#Let’s-do-some-explaining" class="headerlink" title="Let’s do some explaining"></a>Let’s do some explaining</h2><p>Alright, So you might be curious about what all the code stuff really means.</p>
+<p>So, First, the App (or Game) class extends a <code>SimpleManager</code> class.<br>What does the <code>SimpleManager</code> class do? It simply allows you to script in the logic of your game.</p>
+<p>The <code>SimpleManager</code> class is essentially for coding small games where only one scene is nescessary.<br>Which is perfect for beginners to FastJ to be able to create small games easily, and quickly without all the<br>hassle of managing scenes.</p>
+<p>But what about when you want to step up into creating a more complex game? We’ll talk about that in the <a href="#Creating-a-more-complex-game">next section</a>.</p>
+<p>But for now, let’s explain the rest of the code.</p>
+<p>Let’s jump to the main function first.<br>Now, What <code>FastJEngine.init(&quot;Hello&quot;, new App());</code> does, is it basically just start the engine with the specified window title (1st argument) and the game class, which will be either a class that extends <code>SimpleManager</code> or <code>SceneManager</code>.</p>
+<p>Then you did some additional configuration and run the game by calling <code>FastJEngine.run()</code>!</p>
+<p>Those additional configuration that is in between the init function call and the run function call,<br>Usually can be resolution changes, or hardware acceleration configuration.</p>
+<p>To change the resolution, There is 2 seperate methods to change the resolution.</p>
+<ul>
+<li><code>FastJEngine.setWindowResolution</code> - Sets the window size according to the resolution provided.</li>
+<li><code>FastJEngine.setCanvasResolution</code> - Sets the canvas resolution, the window’s size isn’t going to change when this is called.</li>
+</ul>
+<p>So what’s the real difference? I mean I can just use the <code>setWindowResolution</code> method right???<br>Unfortunately not, The <code>setWindowResolution</code> method only changes the size of the window but does not change the size of the game canvas. So for example, if you have used the <code>setWindowResolution</code> method to set the window size to a resolution with 16:9 ratio, but you used the <code>setCanvasResolution</code> method to set the canvas resolution to a resolution that has a ratio of 9:16, you would see clearly why it’s different.</p>
+<p>It’s going to be stretched. Because the canvas is trying to scale to fill the window which does not have the same resolution ratio. This is called stretch-to-fill. This technique can also be used for pixel art games to allow using a technique called upscaling, as long as you got the resolution ratio and stuff right it’s not going to be stretched.</p>
+<p>To change the hardware acceleration settings, you actually don’t need to do this but,<br>you can.<br>Anyway, you can set the hardware acceleration settings by calling the function <code>FastJEngine.configureHardwareAcceleration(HWAccel)</code>.<br>Which <code>HWAccel</code> can be one of the following options:</p>
+<ul>
+<li><code>HWAccel.Direct3D</code> - A windows specific graphics API.</li>
+<li><code>HWAccel.X11</code> - A Linux specific graphics API.</li>
+<li><code>HWAccel.OpenGL</code> - A Graphics API that most devices support.</li>
+<li><code>HWAccel.CpuRender</code> - Uses CPU to draw stuff. Highly does not recommend especially with complex scenes with lot of objects.</li>
+<li><code>HWAccel.Default</code> - Just use whatever the OS picks for me.</li>
+</ul>
+<h2 id="Creating-a-more-complex-game"><a href="#Creating-a-more-complex-game" class="headerlink" title="Creating a more complex game"></a>Creating a more complex game</h2><p>To create a more complex game, you will need multiple scenes, right?</p>
+<p>So how to do manage multiple scenes in this game engine?</p>
+<p><code>SceneManager</code> is here to save the day.</p>
+<p>First, Make a class that inherits from <code>SceneManager</code> (<code>tech.fastj.systems.control.SceneManager</code>) and override the <code>init</code> method.</p>
+<p>Like so:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">MySceneManager</span> <span class="keyword">extends</span> <span class="title class_">SceneManager</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">init</span><span class="params">(FastJCanvas display)</span> &#123;</span><br><span class="line">        <span class="comment">// configure your display settings here</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Then, we’ll create the scenes we want to manage. You can create a scene by creating a class and inheriting the <code>Scene</code> (<code>tech.fastj.systems.control.Scene</code>) class.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MyScene</span> <span class="keyword">extends</span> <span class="title class_">Scene</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">load</span><span class="params">(FastJCanvas canvas)</span> &#123;</span><br><span class="line">        <span class="comment">// When the scene is first loaded</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">update</span><span class="params">(FastJCanvas canvas)</span> &#123;</span><br><span class="line">        <span class="comment">// Runs every frame when the scene is still loaded</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">unload</span><span class="params">(FastJCanvas canvas)</span> &#123;</span><br><span class="line">        <span class="comment">// When the scene is unloaded</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Now you can add a text to render or some kind of shape to the scene class.</p>
+<p>Make sure that you have a proper entry point and initialize the FastJ engine.<br>If you try to run it, nothing will happen.</p>
+<p>Because you haven’t added the scene to the <code>SceneManager</code> class.<br>You can do that by calling the <code>this.addScene(Scene)</code> method from inside the <code>init</code> method inside the inherited <code>SceneManager</code> class.</p>
+<p>Then after you add it, you’ll need to call <code>this.setCurrentScene(Scene)</code> and <code>this.loadCurrentScene()</code>.<br>And then you’re done! Everything should work now unless you did something wrong.</p>
+
+  </article>
+  
+  <hr>
+  <p>
+    By <a href="">lines-of-codes (Satakun Utama)</a>.
+  </p>
+  
+</article>
+
+
+    </div>
+  </div>
+  <footer>
+  
+  
+  <p>
+    Powered by <a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a> | Theme (Modified) <a target="_blank" rel="noopener" href="https://github.com/syy11cn/hexo-theme-linear">Linear</a> from <a target="_blank" rel="noopener" href="https://syy11.cn">Yiyang Sun</a>
+  </p>
+</footer>
+  
+  <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+  </script>
+  <script>
+    Waline({
+      el: '#waline',
+      placeholder: '',
+      avatar: 'retro',
+      visitor: true,
+      requiredFields: ['nick', 'mail'],
+      serverURL: '',
+      emoji: [
+        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
+        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq',
+        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
+        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
+        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
+        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba',
+      ]
+    });
+  </script>
+</body>
+
+</html>
