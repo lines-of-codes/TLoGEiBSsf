@@ -1,0 +1,50 @@
+# favicon path to your logo
+favicon:
+
+# canvas
+canvasbg:
+  enabled: false
+  color:
+  opacity:
+  count:
+
+# personal links
+## links icon base folder
+linkiconbase: /images/links/
+## array of links
+links:
+  - name: GitHub
+    link: https://github.com/lines-of-codes/TLoGEiBSsf
+    icon: github
+
+# pagination
+pagination:
+  prev_text: '<'
+  next_text: '>'
+
+# whether to display `CC BY-SA 4.0` declaration
+declaration: true
+
+# comment
+waline:
+  enabled: false
+  serverURL:
+  placeholder:
+  avatar:
+  emoji:
+    bilibili: true
+    qq: true
+    tieba: true
+    twitter: true
+    alus: true
+    weibo: true
+
+# footer
+## for users in China
+icp:
+## visitor counter
+counter:
+  enabled: false
+
+# google site verification
+verimeta:

@@ -1,0 +1,13 @@
+<ul class="archive">
+  <% page.posts.forEach(post => { %>
+  <%- partial('archive-post', { post: post }) %>
+  <% }) %>
+  <% if (page.total > 1){ %>
+  <nav id="page-nav">
+    <%- paginator({
+          prev_text: theme.pagination && theme.pagination.prev_text || "<",
+          next_text: theme.pagination && theme.pagination.next_text || ">",
+        }) %>
+  </nav>
+  <% } %>
+</ul>

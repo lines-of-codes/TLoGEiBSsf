@@ -1,0 +1,22 @@
+<article class="post">
+  <%- partial('post/date', { post: post }) %>
+  <h1><%- post.title %></h1>
+  <%- partial('post/info', { post: post }) %>
+  <%- partial('post/tag', { post: post }) %>
+  <% if (post.cover) { %>
+  <img src="<%- post.cover %>" alt="<%- post.title %>">
+  <% } %>
+  <article>
+    <%- post.content %>
+  </article>
+  <% if (theme.declaration) { %>
+  <hr>
+  <p>
+    By <a href=""><%- post.author || config.author || "a Blogger" %></a>.
+  </p>
+  <% } %>
+</article>
+
+<% if (!index && theme.waline.enabled) { %>
+<%- partial('waline') %>
+<% } %>

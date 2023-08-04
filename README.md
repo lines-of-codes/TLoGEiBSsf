@@ -1,6 +1,8 @@
-<img alt="TLoGEiBSsf Banner" width="896" height="504" src="https://github.com/lines-of-codes/TLoGEiBSsf/blob/e8f4e3177837544fc5f04cfc4b7ee65024ed7add/TLoGEiBSsfBanner3_1280x720.png">
+<img alt="TLoGEiBSsf Banner" width="896" height="504" src="https://raw.githubusercontent.com/lines-of-codes/TLoGEiBSsf/e8f4e3177837544fc5f04cfc4b7ee65024ed7add/TLoGEiBSsfBanner3_1280x720.png">
 
 The List of Game engine in Brackeys Server so far
+
+Blog site generated with [Hexo](https://hexo.io), with a modified [Linear](https://github.com/yysuen/hexo-theme-linear) theme.
 
 ---
 
@@ -45,7 +47,7 @@ A Game engine. Made in C++
 
 ---
 
-<img src="https://raw.githubusercontent.com/DucktapeEngine/Branding/main/Icon.png" alt="banner" height="125" align="left"/>
+<img src="https://raw.githubusercontent.com/DucktapeEngine/Ducktape/main/Branding/icon.png" alt="banner" height="125" align="left"/>
 
 [Ducktape](https://github.com/Ducktapeengine/ducktape) by [Duckie](https://github.com/TheDuckDev)
 
