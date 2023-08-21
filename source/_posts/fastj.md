@@ -5,6 +5,15 @@ tags: [fastj]
 
 FastJ is a free and open-source Java-based 2D game engine and framework. It aims to provide the best 2D game-making experience using Java (and the JVM languages).
 
+## Pros and Cons
+### Pros
+- Easy to use
+- Uses minimal external dependencies (4 direct dependencies at the time of writing)
+- Has a good relationship with your FPS
+### Cons
+- The project is dead (at the moment of writing)
+- Only support Desktop platforms
+
 ## Try out FastJ
 **This article assumes you already have the basic understanding of the Java programming language.**
 

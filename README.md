@@ -3,6 +3,7 @@
 The List of Game engine in Brackeys Server so far
 
 Blog site generated with [Hexo](https://hexo.io), with a modified [Linear](https://github.com/yysuen/hexo-theme-linear) theme.
+The blog is experimental and is not finished.
 
 ---
 
@@ -21,7 +22,7 @@ FastJ is a Lightweight Game engine. Made in Java.
 
 ---
 
-[Crynn](https://github.com/wmcnamara/crynn/raw/master/CrynnSmall.png) by [Warp](https://github.com/wmcnamara/)
+[<img src="https://github.com/wmcnamara/crynn/raw/master/CrynnSmall.png" width="125" />](https://github.com/wmcnamara/crynn) by [Warp](https://github.com/wmcnamara/)
 
 Crynn is an open source game engine created with C++20 and OpenGL. Crynn is not a beginner engine. Knowledge of matrix math, OpenGL, C++ and Visual Studio is required. Currently only supports building to Windows.
 
@@ -75,6 +76,19 @@ a 2D/3D Game engine made in Java.
 
 ---
 
+[SypherEngine](https://github.com/AurumByte/SypherEngine) by [AurumByte](https://github.com/AurumByte/)
+
+a Game engine, made for Simplicity.
+
+<a href="https://github.com/AurumByte/SypherEngine/issues">![SypherEngine Issues](https://img.shields.io/github/issues/AurumByte/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/AurumByte/SypherEngine/network/members">![SypherEngine Forks](https://img.shields.io/github/forks/AurumByte/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/AurumByte/SypherEngine/stargazers">![SypherEngine Stars](https://img.shields.io/github/stars/AurumByte/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/AurumByte/SypherEngine/blob/master/LICENSE">![SypherEngine License](https://img.shields.io/github/license/AurumByte/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/AurumByte/SypherEngine/">![SypherEngine Top Languages](https://img.shields.io/github/languages/top/AurumByte/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/AurumByte/SypherEngine/">![SypherEngine Code size in Bytes](https://img.shields.io/github/languages/code-size/AurumByte/SypherEngine?style=flat-square)</a>
+
+---
+
 [StablerCharacter](https://github.com/lines-of-codes/StablerCharacter) by [GameCreator/lines-of-codes](https://github.com/lines-of-codes/)
 
 a Text adventure game engine made in Python
@@ -108,16 +122,3 @@ a C# implementation of StablerCharacter.
 <a href="https://github.com/lines-of-codes/StablerCharacter.cs/blob/master/LICENSE">![StablerCharacter License](https://img.shields.io/github/license/lines-of-codes/StablerCharacter.cs?style=flat-square)</a>
 <a href="https://github.com/lines-of-codes/StablerCharacter.cs/">![StablerCharacter Top Languages](https://img.shields.io/github/languages/top/lines-of-codes/StablerCharacter.cs?style=flat-square)</a>
 <a href="https://github.com/lines-of-codes/StablerCharacter.cs/">![StablerCharacter Code size in Bytes](https://img.shields.io/github/languages/code-size/lines-of-codes/StablerCharacter.cs?style=flat-square)</a>
-
----
-
-[SypherEngine](https://github.com/AurumByte/SypherEngine) by [AurumByte](https://github.com/AurumByte/)
-
-a Game engine, made for Simplicity.
-
-<a href="https://github.com/AurumByte/SypherEngine/issues">![SypherEngine Issues](https://img.shields.io/github/issues/AurumByte/SypherEngine?style=flat-square)</a>
-<a href="https://github.com/AurumByte/SypherEngine/network/members">![SypherEngine Forks](https://img.shields.io/github/forks/AurumByte/SypherEngine?style=flat-square)</a>
-<a href="https://github.com/AurumByte/SypherEngine/stargazers">![SypherEngine Stars](https://img.shields.io/github/stars/AurumByte/SypherEngine?style=flat-square)</a>
-<a href="https://github.com/AurumByte/SypherEngine/blob/master/LICENSE">![SypherEngine License](https://img.shields.io/github/license/AurumByte/SypherEngine?style=flat-square)</a>
-<a href="https://github.com/AurumByte/SypherEngine/">![SypherEngine Top Languages](https://img.shields.io/github/languages/top/AurumByte/SypherEngine?style=flat-square)</a>
-<a href="https://github.com/AurumByte/SypherEngine/">![SypherEngine Code size in Bytes](https://img.shields.io/github/languages/code-size/AurumByte/SypherEngine?style=flat-square)</a>
