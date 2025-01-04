@@ -7,7 +7,7 @@ The blog is experimental and is not finished.
 
 ---
 
-<img src="https://fastj.tech/svg/fastj_icon.svg" alt="FastJ Icon" height="115" align="left" />
+<img src="https://raw.githubusercontent.com/fastjengine/FastJ/refs/heads/main/media/branding/fastj_icon.png" alt="FastJ Icon" height="115" align="left" />
 
 [FastJ](https://github.com/fastjengine/FastJ) by [Lucas](https://github.com/lucasstarsz)
 
