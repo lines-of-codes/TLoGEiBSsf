@@ -48,9 +48,9 @@ A Game engine. Made in C++
 
 ---
 
-<img src="https://raw.githubusercontent.com/DucktapeEngine/Ducktape/main/Branding/icon.png" alt="banner" height="125" align="left"/>
+<img src="https://raw.githubusercontent.com/aryanbaburajan/Ducktape/main/branding/icon.png" alt="banner" height="125" align="left"/>
 
-[Ducktape](https://github.com/Ducktapeengine/ducktape) by [Duckie](https://github.com/TheDuckDev)
+[Ducktape](https://github.com/aryanbaburajan/ducktape) by [Duckie](https://github.com/TheDuckDev)
 
 Convenience, that's Ducktape. Ducktape is an Open source Light weight 2d Game Engine that gives most priority to user convenience.
 
