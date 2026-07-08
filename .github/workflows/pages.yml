@@ -3,6 +3,8 @@ on:
     push:
         branches:
             - main
+        paths:
+            - site/**
     workflow_dispatch:
 
 permissions:
@@ -24,8 +26,8 @@ jobs:
             - name: Build Zola + upload Pages artifact
               uses: getzola/github-pages@066755243e69f508fd1a74739fbf1a65f656c790
               with:
-                  working_directory: site
-                  zola_version: v0.22.0
+                  working_directory: ./site
+                  zola_version: v0.22.1
 
     deploy:
         runs-on: ubuntu-latest

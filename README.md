@@ -94,16 +94,16 @@ a 2D/3D Game engine made in Java.
 
 ---
 
-[SypherEngine](https://github.com/AurumByte/SypherEngine) by [AurumByte](https://github.com/AurumByte/)
+[SypherEngine](https://github.com/8BitAurum/SypherEngine) by [8BitAurum](https://github.com/8BitAurum)
 
 a Game engine, made for Simplicity.
 
-<a href="https://github.com/AurumByte/SypherEngine/issues">![SypherEngine Issues](https://img.shields.io/github/issues/AurumByte/SypherEngine?style=flat-square)</a>
-<a href="https://github.com/AurumByte/SypherEngine/network/members">![SypherEngine Forks](https://img.shields.io/github/forks/AurumByte/SypherEngine?style=flat-square)</a>
-<a href="https://github.com/AurumByte/SypherEngine/stargazers">![SypherEngine Stars](https://img.shields.io/github/stars/AurumByte/SypherEngine?style=flat-square)</a>
-<a href="https://github.com/AurumByte/SypherEngine/blob/master/LICENSE">![SypherEngine License](https://img.shields.io/github/license/AurumByte/SypherEngine?style=flat-square)</a>
-<a href="https://github.com/AurumByte/SypherEngine/">![SypherEngine Top Languages](https://img.shields.io/github/languages/top/AurumByte/SypherEngine?style=flat-square)</a>
-<a href="https://github.com/AurumByte/SypherEngine/">![SypherEngine Code size in Bytes](https://img.shields.io/github/languages/code-size/AurumByte/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/8BitAurum/SypherEngine/issues">![SypherEngine Issues](https://img.shields.io/github/issues/8BitAurum/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/8BitAurum/SypherEngine/network/members">![SypherEngine Forks](https://img.shields.io/github/forks/8BitAurum/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/8BitAurum/SypherEngine/stargazers">![SypherEngine Stars](https://img.shields.io/github/stars/8BitAurum/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/8BitAurum/SypherEngine/blob/master/LICENSE">![SypherEngine License](https://img.shields.io/github/license/8BitAurum/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/8BitAurum/SypherEngine/">![SypherEngine Top Languages](https://img.shields.io/github/languages/top/8BitAurum/SypherEngine?style=flat-square)</a>
+<a href="https://github.com/8BitAurum/SypherEngine/">![SypherEngine Code size in Bytes](https://img.shields.io/github/languages/code-size/8BitAurum/SypherEngine?style=flat-square)</a>
 
 ---
 
