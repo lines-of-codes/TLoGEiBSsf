@@ -10,9 +10,9 @@ Blog site generated with [Zola](https://www.getzola.org/)
     <picture>
         <source srcset="./ember-logo-dark.png" media="(prefers-color-scheme: light)" />
         <source srcset="https://raw.githubusercontent.com/tomlin7/Ember/refs/heads/main/logo.svg" media="(prefers-color-scheme: dark)" />
-        <img src="./ember-logo-dark.png" />
+        <img src="./ember-logo-dark.png" width="150" />
     </picture>
-</a> by [Billy](https://github.com/tomlin7)
+</a> by <a href="https://github.com/tomlin7">Billy</a>
 
 Game Engine written in C++
 
