@@ -1,38 +1,38 @@
-name: Pages
-
+name: Build and deploy Zola website
 on:
-  push:
-    branches:
-      - main  # default branch
+    push:
+        branches:
+            - master
+
+permissions:
+    contents: read
+    pages: write
+    id-token: write
+
+concurrency:
+    group: "pages"
+    cancel-in-progress: true
 
 jobs:
-  pages:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          # If your repository depends on submodule, please see: https://github.com/actions/checkout
-          submodules: recursive
-      - name: Use Node.js 24.x
-        uses: actions/setup-node@v5
-        with:
-          node-version: '24'
-      - name: Cache NPM dependencies
-        uses: actions/cache@v4.2.4
-        with:
-          path: node_modules
-          key: ${{ runner.OS }}-npm-cache
-          restore-keys: |
-            ${{ runner.OS }}-npm-cache
-      - name: Install Dependencies
-        run: npm install
-      - name: Build
-        run: npm run build
-      - name: Upload artifact
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: checkout
+              uses: actions/checkout@v7
+
+            - name: Build Zola + upload Pages artifact
+              uses: getzola/github-pages@066755243e69f508fd1a74739fbf1a65f656c790
+              with:
+                  working_directory: site
+                  zola_version: v0.22.0
+
+    deploy:
+        runs-on: ubuntu-latest
+        needs: build
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        steps:
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v5

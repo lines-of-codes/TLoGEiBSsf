@@ -1,0 +1,93 @@
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings:
+        "liga" 1,
+        "calt" 1;
+    --text-color: oklch(20.8% 0.042 265.755);
+    --background-color: whitesmoke;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
+}
+
+body {
+    line-height: 1.5em;
+    /* Slate 900 */
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+.title {
+    display: inline-block;
+    background-clip: text;
+    color: transparent;
+    line-height: 1.25em;
+    margin: 1rem 0 0 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1em;
+}
+
+code {
+    font-family: "Cascadia Code", "JetBrains Mono", monospace;
+}
+
+pre {
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+article {
+    margin: 3em 20vw;
+}
+
+.post-list {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.post-entry {
+    display: block;
+    text-decoration: none;
+    padding: 12px 16px;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    color: inherit;
+    transition: 250ms;
+}
+
+.post-entry:hover,
+.post-entry:focus {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 850px) {
+    article {
+        margin: 3em 10vw;
+    }
+}
+
+@media (max-width: 500px) {
+    article {
+        margin: 3em 5vw;
+    }
+
+    ul {
+        padding-inline-start: 1.5em;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Slate 800 */
+        --background-color: oklch(27.9% 0.041 260.031);
+        --text-color: whitesmoke;
+    }
+}

@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block title %} {{ page.title }} {% endblock title
+%} {% block head %}
+<style>
+    .title {
+        background-image: {{ page.extra.title_color }};
+    }
+</style>
+{% endblock head %} {% block content %}
+<article>
+    <a href="/">&larr; Back to post list</a>
+    <div>
+        <h1 class="title">{{ page.title }}</h1>
+    </div>
+    <p class="subtitle"><strong>{{ page.date }}</strong></p>
+    {{ page.content | safe }}
+</article>
+{% endblock content %}

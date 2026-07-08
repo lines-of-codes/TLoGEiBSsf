@@ -2,8 +2,26 @@
 
 The List of Game engine in Brackeys Server so far
 
-Blog site generated with [Hexo](https://hexo.io), with a modified [Linear](https://github.com/yysuen/hexo-theme-linear) theme.
-The blog is experimental and is not finished.
+Blog site generated with [Zola](https://www.getzola.org/)
+
+---
+
+<a href="https://github.com/tomlin7/Ember">
+    <picture>
+        <source srcset="./ember-logo-dark.png" media="(prefers-color-scheme: light)" />
+        <source srcset="https://raw.githubusercontent.com/tomlin7/Ember/refs/heads/main/logo.svg" media="(prefers-color-scheme: dark)" />
+        <img src="./ember-logo-dark.png" />
+    </picture>
+</a> by [Billy](https://github.com/tomlin7)
+
+Game Engine written in C++
+
+<a href="https://github.com/tomlin7/Ember/issues">![Ember Issues](https://img.shields.io/github/issues/tomlin7/Ember?style=flat-square)</a>
+<a href="https://github.com/tomlin7/Ember/network/members">![Ember Forks](https://img.shields.io/github/forks/tomlin7/Ember?style=flat-square)</a>
+<a href="https://github.com/tomlin7/Ember/stargazers">![Ember Stars](https://img.shields.io/github/stars/tomlin7/Ember?style=flat-square)</a>
+<a href="https://github.com/tomlin7/Ember/blob/main/LICENSE.txt">![Ember License](https://img.shields.io/github/license/tomlin7/Ember?style=flat-square)</a>
+<a href="https://github.com/tomlin7/Ember/">![Ember Top Language](https://img.shields.io/github/languages/top/tomlin7/Ember?style=flat-square)</a>
+<a href="https://github.com/tomlin7/Ember/">![Ember Code size in Bytes](https://img.shields.io/github/languages/code-size/tomlin7/Ember?style=flat-square)</a>
 
 ---
 
@@ -35,7 +53,7 @@ Crynn is an open source game engine created with C++20 and OpenGL. Crynn is not 
 
 ---
 
-[PiE](https://github.com/Pi-Man/PiE) by [4™ man](https://github.com/Pi-Man)
+[PiE](https://github.com/Pi-Man/PiE) by [π man](https://github.com/Pi-Man)
 
 A Game engine. Made in C++
 
